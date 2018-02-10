@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context="com.example.user.myapplication.MainActivity">
+
+  <EditText
+      android:id="@+id/Linera_EditText"
+      android:layout_width="wrap_content"
+      android:hint="enter 1st number"
+      android:inputType="number"
+      android:layout_marginBottom="20dp"
+      android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/Linear_EditTexts"
+        android:layout_width="wrap_content"
+        android:hint="enter 2nd number"
+        android:layout_marginBottom="20dp"
+        android:inputType="number"
+        android:layout_height="wrap_content" />
+  <EditText
+      android:id="@+id/Linear_EditTextss"
+      android:layout_width="wrap_content"
+      android:hint="enter 3rd number"
+      android:layout_marginBottom="20dp"
+      android:inputType="number"
+      android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/Linear_Textview"
+        android:layout_width="wrap_content"
+        android:text="TextView"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/Linear_Buton"
+        android:layout_width="wrap_content"
+        android:text="Button"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
