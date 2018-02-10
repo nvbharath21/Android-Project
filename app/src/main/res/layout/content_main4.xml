@@ -19,6 +19,12 @@
         android:layout_width="match_parent"
         android:background="@drawable/sun"
         android:layout_height="180dp" />
+    <Button
+        android:id="@+id/act2"
+        android:layout_width="wrap_content"
+        android:layout_above="@+id/act1"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content" />
 
 
 </RelativeLayout>
